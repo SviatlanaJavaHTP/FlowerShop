@@ -9,10 +9,15 @@ public class MainApp {
 
 	public static void main(String[] args) {
 		
-		Flower flower = new Flower();
-		
-		System.out.println("");
+		Flower flower = new Flower("Rose");
+		printFlower(flower);
 	
+	}
+	
+	private static void printFlower(Flower flower){
+		System.out.println("Flower: " + flower.getTitle());
+		System.out.println("stem height, width " + flower.getStem());
+		System.out.println("bud size, color " + flower.getBud());
 	}
 
 }
