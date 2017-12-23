@@ -18,6 +18,7 @@ public class MainApp {
 		printFlower("Flower grown", flower);
 
 		flower.bloom();
+		printBloomingFlower(flower);
 
 	}
 
