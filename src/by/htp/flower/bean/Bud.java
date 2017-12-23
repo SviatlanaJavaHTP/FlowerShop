@@ -14,10 +14,46 @@ public class Bud {
 	public String getColor() {
 		return color;
 	}
+	
+	public void setColor(String color){
+		this.color = color;
+	}
 
 	public int getSize() {
 		return size;
 	}
-
+	
+	public void setSize(int size) {
+		this.size = size;
+	}
+	
+	public Leaf[] getLeaves(){
+		return leaves;
+	}
+	
+	public void addFreshLeaves(){
+		
+		if(leaves!=null){
+			
+		}else{
+			leaves = new Leaf[3];
+			
+			leaves[0] = new Leaf("White", "ellipse");
+			leaves[1] = new Leaf("White", "ellipse");
+			leaves[2] = new Leaf("White", "ellipse");
+			
+		}
+	}
 	
 }
+
+
+
+
+
+
+
+
+
+
+

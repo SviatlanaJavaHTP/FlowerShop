@@ -23,5 +23,29 @@ public class Flower {
 	public Stem getStem(){
 		return stem;
 	}
+	
+	public void grow(){
+		this.stem.setHeight(25);
+		this.stem.setWidth(3);
+		
+		this.bud.setSize(8);
+	}
+	
+	public void bloom(){
+		
+		this.bud.setSize(12);
+		this.bud.setColor("yellow");
+		
+		this.bud.addFreshLeaves();
+		
+	}
 
 }
+
+
+
+
+
+
+
+

@@ -17,5 +17,12 @@ public class Stem {
 	public int getWidth(){
 		return width;
 	}
+	
+	public void setHeight(int height){
+		this.height = height;
+	}
 
+	public void setWidth(int width) {
+		this.width = width;
+	}
 }
